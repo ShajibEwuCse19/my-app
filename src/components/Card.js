@@ -1,5 +1,5 @@
-const todoTitle = "Call Family";
-const todoDesc = "Elitr est magna sed ipsum et et ipsum. Labore rebum amet accusam tempor gubergren et no. Consetetur et ipsum dolor.";
+//const todoTitle = "Call Family";
+//const todoDesc = "Elitr est magna sed ipsum et et ipsum. Labore rebum amet accusam tempor gubergren et no. Consetetur et ipsum dolor.";
 const current = new Date();
   const Crntdate = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
 
