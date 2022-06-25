@@ -4,9 +4,10 @@ const current = new Date();
   const Crntdate = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
 
   function MyFunction(props){
+    const {todoTitle, todoDesc} = props;
     return  <div className='Card'>
-                      <h3 className='cardTitle'> {props.todoTitle}</h3>
-                      <p className='cardDesc'>{props.todoDesc}</p>
+                      <h3 className='cardTitle'> {todoTitle}</h3>
+                      <p className='cardDesc'>{todoDesc}</p>
                       <p className='cardFooter'>{Crntdate}</p>
                 </div>
   }
